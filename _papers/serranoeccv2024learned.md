@@ -2,15 +2,19 @@
 layout: page
 title: Learned Image Enhancement via Color Naming 
 description: David Serrano-Lozano, Luis Herranz, Michael S. Brown and Javier Vazquez-Corral.
-img: assets/img/paers/serranoeccv2024learned/figure-curve-example.pdf
+img: assets/img/paers/serranoeccv2024learned/figure-curve-example.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/paers/serranoeccv2024learned/figure-curve-example.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+A popular method for enhancing images involves learning the style of a professional photo editor using pairs of training images comprised of the original input with the editor-enhanced version. When manipulating images, many editing tools offer a feature that allows the user to manipulate a limited selection of familiar colors.  Editing by color name allows easy adjustment of elements like the "blue" of the sky or the "green" of trees. Inspired by this approach to color manipulation, we propose a learning-based image enhancement technique that separates the image into a small set of named colors. Our method learns to globally adjust the image for each specific named color via tone curves and then combines the images using an attention-based fusion mechanism to mimic spatial editing. We demonstrate the effectiveness of our method against several competing methods on the well-known Adobe 5K dataset and the PPR10K dataset, showing notable improvements.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
