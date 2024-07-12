@@ -9,7 +9,7 @@ profile:
   image: profile_pic_serrano_lozano.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Fig. 1: David mimicking a T-Rex at the American Museum of Natural History.</p>
+    <p>Fig.1: David mimicking a T-Rex at the American Museum of Natural History.</p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
