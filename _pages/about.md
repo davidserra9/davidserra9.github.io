@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Student at Computer Vision Center, Universitat Autònoma de Barcelona (UAB), Spain.
 
